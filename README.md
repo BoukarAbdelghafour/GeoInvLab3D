@@ -6,13 +6,14 @@ GeoInvLab3D is a modular Python framework for 3-D geophysical forward modelling 
 
 The framework provides a common computational workflow for three geophysical methods:
 
-- **Gravity** — modelling and inversion of subsurface density contrasts.
-- **Magnetic** — modelling and inversion of magnetic responses associated with magnetic susceptibility distributions.
 - **Magnetotelluric (MT)** — frequency-domain electromagnetic modelling and inversion using electrical resistivity.
+- **Magnetic** — modelling and inversion of magnetic responses associated with magnetic susceptibility distributions.
+- **Gravity** — modelling and inversion of subsurface density contrasts.
+
 
 The graphical application provides tools to organize projects, import observations, create or load meshes and models, configure inversion runs, and inspect results.
 
-> **Project status:** version `0.1.0`. Features and APIs may evolve as the framework develops.
+> **Project status:** version `0.1.1`. Features and APIs may evolve as the framework develops.
 
 ---
 
