@@ -271,9 +271,18 @@ GeoInvLab3D is distributed under the **MIT License**. See the [`LICENSE`](LICENS
 
 ## Citation
 
-If GeoInvLab3D is used in scientific work, please cite the software release or the associated publication.
+If GeoInvLab3D is used in scientific research, please cite the software using the following reference:
 
-**Software:** GeoInvLab3D, version 0.1.1.
+**Boukar, A. (2026).** *GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion* (Version 0.1.1) [Computer software]. Zenodo.
+
+**Concept DOI (all versions):**
+https://doi.org/10.5281/zenodo.24381138
+
+**Version DOI (v0.1.1):** 
+https://doi.org/10.5281/zenodo.24381139
+
+**GitHub repository:** 
+https://github.com/BoukarAbdelghafour/GeoInvLab3D
 
 **Manuscript title:** *GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion.*
 
