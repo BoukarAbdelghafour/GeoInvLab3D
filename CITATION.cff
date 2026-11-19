@@ -3,6 +3,7 @@ message: "If you use GeoInvLab3D in your research, please cite this software."
 title: "GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion"
 type: software
 version: 0.1.1
+DOI: https://doi.org/10.5281/zenodo.24381138
 date-released: 2026-11-19
 
 authors:
