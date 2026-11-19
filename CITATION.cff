@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use GeoInvLab3D in your research, please cite this software."
+title: "GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion"
+type: software
+version: 0.1.0
+date-released: 2026-09-17
+
+authors:
+  - family-names: "BOUKAR"
+    given-names: "ABDELGHAFOUR"
+
+abstract: >
+  GeoInvLab3D is an open-source Python framework for three-dimensional
+  geophysical forward modeling and inversion. It provides a modular
+  architecture supporting gravity, magnetic, and magnetotelluric methods,
+  together with numerical inversion tools, three-dimensional visualization,
+  and a graphical user interface.
+
+keywords:
+  - Geophysics
+  - Gravity
+  - Magnetic modeling
+  - Magnetotellurics
+  - Three-dimensional modeling
+  - Geophysical inversion
+  - Python
+  - Open-source software
+
+license: MIT
+
+repository-code: "https://github.com/BoukarAbdelghafour/GeoInvLab3D"
+
+url: "https://github.com/BoukarAbdelghafour/GeoInvLab3D"

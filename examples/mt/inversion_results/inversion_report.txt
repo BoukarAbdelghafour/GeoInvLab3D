@@ -1,0 +1,30 @@
+GeoInvLab3D - 3D MT inversion report
+=====================================
+
+Mesh shape: (np.int64(6), np.int64(6), np.int64(4))
+Number of cells: 144
+Number of stations: 10
+Number of frequencies: 10
+Number of observations: 100
+Number of scalar data: 800
+
+Maximum iterations: 100
+Tolerance: 1e-05
+Damping: 0.001
+
+Initial objective: 171977.216742
+Final objective: 536.219026412
+Initial weighted residual norm: 412.723898923
+Final weighted residual norm: 23.1097704712
+Initial normalized RMS: 14.5919933843
+Final normalized RMS: 0.817053770592
+
+Initial resistivity range: 100 - 100 ohm.m
+Inverted resistivity range: 9.3968692 - 998.44808 ohm.m
+
+History file: mt_inversion_history.dat
+
+Output files:
+  model_inverted.dat
+  mt_observations_predicted.dat
+  inversion_report.txt

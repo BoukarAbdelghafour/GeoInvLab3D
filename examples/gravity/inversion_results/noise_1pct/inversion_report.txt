@@ -1,0 +1,62 @@
+GeoInvLab3D — 3-D gravity inversion report
+================================================
+
+Experiment
+----------
+Noise level: 1.0%
+Noise directory: noise_1pct
+
+Mesh
+----
+Dimensions: 20 x 20 x 15
+Number of cells: 6000
+
+Acquisition
+-----------
+Number of stations: 400
+
+Inversion
+---------
+Solver: GaussNewtonSolver
+Regularization: L2
+Lambda: 1.0000000000e-16
+Elapsed time: 269.272519 s
+
+Iteration history
+-----------------
+File: inversion_history.dat
+Number of recorded iterations: 3
+Columns:
+iteration data_rms normalized_rms phi_d phi_m phi
+model_min model_max elapsed_s alpha relative_update
+
+Objective diagnostics
+---------------------
+Objective value: 6.1528253776e-11
+Data misfit: 2.2726917380e-12
+Regularization value: 5.9255562038e+05
+
+Data fit
+--------
+Observed RMS: 2.2319324337e-01 mGal
+Residual RMS: 7.5377246866e-03 mGal
+Maximum absolute residual: 3.4238770697e-02 mGal
+
+Model
+-----
+True minimum: -3.0000000000e+02 kg/m3
+True maximum: 5.0000000000e+02 kg/m3
+
+Inverted minimum: -3.0694107384e+01 kg/m3
+Inverted maximum: 1.1050601983e+02 kg/m3
+
+Model error RMS: 5.9336424199e+01 kg/m3
+Relative model error: 98.529788 %
+
+Notes
+-----
+The inversion uses an unconstrained L2 formulation.
+Negative density contrasts are mathematically possible.
+
+The data are supplied without explicit uncertainty weighting,
+consistent with the reference inversion script.

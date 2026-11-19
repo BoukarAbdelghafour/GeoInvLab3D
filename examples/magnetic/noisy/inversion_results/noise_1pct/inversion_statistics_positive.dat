@@ -1,0 +1,28 @@
+# noise_level_percent
+# data_rms_nT
+# mean_absolute_error_nT
+# maximum_absolute_error_nT
+# relative_l2
+# susceptibility_minimum_SI
+# susceptibility_maximum_SI
+# susceptibility_mean_SI
+# susceptibility_rms_SI
+# model_rmse_SI
+# negative_cells
+# positive_cells
+# zero_cells
+# regularization_lambda
+1.000000000000e+00
+3.295348148000e-08
+2.393535424083e-08
+1.608436832612e-07
+1.110747844488e-10
+5.070061689703e-03
+3.764002440368e-02
+1.267984579553e-02
+1.332201417417e-02
+6.163254506768e-03
+0.000000000000e+00
+6.000000000000e+03
+0.000000000000e+00
+1.000000000000e-03

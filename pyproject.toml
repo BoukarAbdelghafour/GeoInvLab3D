@@ -1,0 +1,125 @@
+ [build-system]
+requires = [
+    "setuptools>=68",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "geoinvlab3d"
+version = "0.1.0"
+description = "A modular Python framework for 3D geophysical forward modeling and inversion."
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "Boukar Abdelghafour" },
+]
+
+license = { file = "LICENSE" }
+
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+]
+
+
+[project.scripts]
+geoinvlab3d = "geoinvlab.gui.main:main"
+
+
+[project.optional-dependencies]
+
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "pytest-qt>=4.4",
+    "ruff>=0.6",
+]
+
+gui = [
+    "PySide6>=6.7",
+]
+
+visualization = [
+    "pyvista>=0.43",
+    "pyvistaqt>=0.11",
+]
+
+all = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "pytest-qt>=4.4",
+    "ruff>=0.6",
+    "PySide6>=6.7",
+    "pyvista>=0.43",
+    "pyvistaqt>=0.11",
+]
+
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+
+[tool.setuptools.packages.find]
+where = [
+    "src",
+]
+
+[tool.setuptools.package-data]
+geoinvlab = ["gui/help/content/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+pythonpath = [
+    "src",
+]
+
+addopts = [
+    "-ra",
+]
+
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+exclude = [
+    "man/",
+]
+
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "UP",
+    "B",
+]
+
+ignore = [
+    "E501",
+]
+
+
+[tool.coverage.run]
+source = [
+    "geoinvlab",
+]
+
+branch = true
+
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "@abstractmethod",
+    "if TYPE_CHECKING:",
+]
+

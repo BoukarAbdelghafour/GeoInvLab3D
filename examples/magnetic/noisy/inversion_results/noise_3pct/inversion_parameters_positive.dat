@@ -1,0 +1,23 @@
+# GeoInvLab3D positive bounded inversion parameters
+# KEY VALUE
+solver scipy.optimize.least_squares(method=trf)
+tolerance 1e-08
+target_misfit 1.0
+max_iterations 200
+lsmr_tolerance auto
+regularization_lambda 0.001
+n_data 400
+n_parameters 6000
+n_cells 6000
+history_file /home/ab/Bureau/recherche/geoinvert/GeoInvLab3D/examples/magnetic/noisy/inversion_results/noise_3pct/inversion_history_positive.dat
+model_history_file /home/ab/Bureau/recherche/geoinvert/GeoInvLab3D/examples/magnetic/noisy/inversion_results/noise_3pct/inversion_model_history_positive.dat
+lower_bound 0.0
+upper_bound inf
+weighted_rms_definition sqrt(mean((residual * weights)**2))
+target_misfit_behavior report_only_continue_optimization
+converged True
+status `xtol` termination condition is satisfied.
+iterations_completed 81
+final_cost 8.3695051471323e-05
+first_order_optimality 2.223758013169721e-05
+target_misfit_reached True

@@ -1,0 +1,18 @@
+include README.md
+include LICENSE
+include pyproject.toml
+
+recursive-include src/geoinvlab *.py
+
+recursive-include examples *.py
+recursive-include examples *.dat
+recursive-include examples *.txt
+recursive-include examples *.pdf
+recursive-include examples *.png
+
+recursive-include docs *.html
+recursive-include docs *.pdf
+
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store

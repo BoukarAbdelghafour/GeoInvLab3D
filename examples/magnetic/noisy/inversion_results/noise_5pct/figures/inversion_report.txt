@@ -1,0 +1,35 @@
+GeoInvLab3D - POSITIVE-CONSTRAINED MAGNETIC INVERSION
+=================================================================
+
+Noise level: 5%
+
+Mesh
+----
+Dimensions: 20 x 20 x 15
+Number of cells: 6000
+Cell size: 100.0 x 100.0 x 100.0 m
+
+True model
+----------
+Minimum susceptibility: 2.00000000e-03 SI
+Maximum susceptibility: 5.00000000e-02 SI
+Mean susceptibility: 1.12733333e-02 SI
+
+Inverted model
+--------------
+Minimum susceptibility: 6.64146611e-04 SI
+Maximum susceptibility: 3.51140453e-02 SI
+Mean susceptibility: 1.38432210e-02 SI
+Negative cells: 0
+
+3-D anomaly visualization
+--------------------------
+Display threshold: 3.51140453e-03 SI
+
+Data fit
+--------
+Number of observations: 400
+Observed RMS: 1.15433964e+03 nT
+Predicted RMS: 1.15433964e+03 nT
+Residual RMS: 8.15475322e+02 nT
+Residual mean: 0.00000000e+00 nT

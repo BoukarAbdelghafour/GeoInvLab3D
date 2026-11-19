@@ -1,0 +1,40 @@
+GEOINVLAB3D - POSITIVE-CONSTRAINED MAGNETIC INVERSION
+=================================================================
+
+Noise level: 3%
+
+INVERSION CONFIGURATION
+-----------------------------------------------------------------
+Regularization lambda : 1.00000000e-03
+Physical constraint   : susceptibility >= 0 SI
+
+DATA-FIT STATISTICS
+-----------------------------------------------------------------
+Data RMS              : 2.88786549e-08 nT
+Mean absolute error   : 2.12727492e-08 nT
+Maximum absolute error: 1.47877472e-07 nT
+Relative L2            : 9.70741103e-11
+
+INVERTED MODEL STATISTICS
+-----------------------------------------------------------------
+Minimum susceptibility: 3.87136122e-03 SI
+Maximum susceptibility: 3.69775925e-02 SI
+Mean susceptibility   : 1.29054946e-02 SI
+RMS susceptibility    : 1.36384839e-02 SI
+Model RMSE            : 6.43144221e-03 SI
+
+CONSTRAINT VERIFICATION
+-----------------------------------------------------------------
+Negative cells: 0
+Positive cells: 6000
+Zero cells    : 0
+
+TRUE VS INVERTED MODEL
+-----------------------------------------------------------------
+True model minimum    : 2.00000000e-03 SI
+True model maximum    : 5.00000000e-02 SI
+True model mean       : 1.12733333e-02 SI
+Inverted model minimum: 3.87136122e-03 SI
+Inverted model maximum: 3.69775925e-02 SI
+Inverted model mean   : 1.29054946e-02 SI
+Model reconstruction RMSE: 6.43144221e-03 SI
