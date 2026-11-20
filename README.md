@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="docs/images/geoinvlab3d_logo.png"
+       alt="GeoInvLab3D logo"
+       width="220">
+</p>
 # GeoInvLab3D
 
 **An open-source Python framework for three-dimensional geophysical modelling and inversion**
@@ -78,7 +83,7 @@ Optional components:
 Clone the repository and move into the project directory:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/BoukarAbdelghafour/GeoInvLab3D.git
 cd GeoInvLab3D
 ```
 
@@ -164,6 +169,14 @@ A typical graphical workflow is:
 **Note:** when using the GUI, import observations before creating a mesh. Replacing an existing mesh may clear the active model, reference model, and inversion result.
 
 Project files managed by the GUI use the `.json` extension.
+
+## Framework Overview
+
+<p align="center">
+  <img src="docs/images/geoinvlab3d_overview.png"
+       alt="GeoInvLab3D framework overview"
+       width="850">
+</p>
 
 ## Mesh and model data
 
