@@ -342,7 +342,7 @@ GeoInvLab3D is developed as an open-source framework to support reproducible 3-D
 
 **Abdelghafour Boukar**
 
-Researcher in Geophysics 
+Senior Lecturer and Researcher in Geophysics 
 University of Science and Technology Houari Boumediene (USTHB) 
 Algiers, Algeria
 
