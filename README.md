@@ -3,9 +3,32 @@
        alt="GeoInvLab3D logo"
        width="220">
 </p>
-# GeoInvLab3D
 
-**An open-source Python framework for three-dimensional geophysical modelling and inversion**
+<h1 align="center">GeoInvLab3D</h1>
+
+<p align="center">
+  <strong>An open-source Python framework for three-dimensional geophysical modelling and inversion</strong>
+</p>
+
+<p align="center">
+  <a href="https://orcid.org/0000-0002-6660-155X">
+    <img src="https://img.shields.io/badge/ORCID-0000--0002--6660--155X-A6CE39?logo=orcid&logoColor=white" alt="ORCID">
+  </a>
+  <a href="https://www.researchgate.net/profile/Abdelghafour-Boukar">
+    <img src="https://img.shields.io/badge/ResearchGate-Profile-00CCBB?logo=researchgate&logoColor=white" alt="ResearchGate">
+  </a>
+  <a href="https://scholar.google.com/citations?user=MTrngBoAAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?logo=googlescholar&logoColor=white" alt="Google Scholar">
+  </a>
+  <a href="https://github.com/BoukarAbdelghafour/GeoInvLab3D">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://doi.org/10.5281/zenodo.24381138">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24381138.svg" alt="DOI">
+  </a>
+</p>
+
+---
 
 GeoInvLab3D is a modular Python framework for 3-D geophysical forward modelling and inversion. It combines reusable data structures, structured-mesh and physical-property models, method-specific forward operators, inversion components, and a graphical user interface.
 
@@ -15,10 +38,9 @@ The framework provides a common computational workflow for three geophysical met
 - **Magnetic** — modelling and inversion of magnetic responses associated with magnetic susceptibility distributions.
 - **Gravity** — modelling and inversion of subsurface density contrasts.
 
-
 The graphical application provides tools to organize projects, import observations, create or load meshes and models, configure inversion runs, and inspect results.
 
-> **Project status:** version `0.1.1`. Features and APIs may evolve as the framework develops.
+> **Project status:** Version `0.1.1`. Features and APIs may evolve as the framework develops.
 
 ---
 
@@ -26,6 +48,7 @@ The graphical application provides tools to organize projects, import observatio
 
 - [Main capabilities](#main-capabilities)
 - [Architecture](#architecture)
+- [Framework overview](#framework-overview)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Launch the graphical interface](#launch-the-graphical-interface)
@@ -36,6 +59,8 @@ The graphical application provides tools to organize projects, import observatio
 - [Project structure](#project-structure)
 - [License](#license)
 - [Citation](#citation)
+- [Acknowledgements](#acknowledgements)
+- [Author and contact](#author-and-contact)
 
 ---
 
@@ -66,6 +91,14 @@ At a high level, the framework contains:
 6. **Visualization** — 2-D plots and optional interactive 3-D views.
 
 This organization allows method-specific forward problems to use common mesh, model, and inversion infrastructure.
+
+## Framework overview
+
+<p align="center">
+  <img src="docs/images/geoinvlab3d_overview.png"
+       alt="GeoInvLab3D framework overview"
+       width="850">
+</p>
 
 ## Requirements
 
@@ -166,17 +199,9 @@ A typical graphical workflow is:
 9. Inspect the recovered model and inversion results.
 10. Save the project and export results as needed.
 
-**Note:** when using the GUI, import observations before creating a mesh. Replacing an existing mesh may clear the active model, reference model, and inversion result.
+**Note:** When using the GUI, import observations before creating a mesh. Replacing an existing mesh may clear the active model, reference model, and inversion result.
 
 Project files managed by the GUI use the `.json` extension.
-
-## Framework Overview
-
-<p align="center">
-  <img src="docs/images/geoinvlab3d_overview.png"
-       alt="GeoInvLab3D framework overview"
-       width="850">
-</p>
 
 ## Mesh and model data
 
@@ -223,7 +248,9 @@ The magnetic workflow calculates magnetic responses associated with subsurface m
 
 ### Magnetotelluric (MT)
 
-The MT workflow uses frequency-dependent electromagnetic responses to estimate subsurface electrical resistivity. Each station-frequency observation can contain the four impedance-tensor components and their corresponding phases:
+The MT workflow uses frequency-dependent electromagnetic responses to estimate subsurface electrical resistivity.
+
+Each station-frequency observation can contain the four impedance-tensor components and their corresponding phases:
 
 - `rho_xx`, `rho_xy`, `rho_yx`, `rho_yy`
 - `phase_xx`, `phase_xy`, `phase_yx`, `phase_yy`
@@ -258,7 +285,9 @@ pytest --cov=geoinvlab --cov-report=term-missing
 
 ## Project structure
 
-The repository is organized around the Python package in `src/`, with examples, tests, and documentation alongside it. The principal areas are:
+The repository is organized around the Python package in `src/`, with examples, tests, and documentation alongside it.
+
+The principal areas are:
 
 ```text
 GeoInvLab3D/
@@ -290,16 +319,43 @@ If GeoInvLab3D is used in scientific research, please cite the software using th
 **Boukar, A. (2026).** *GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion* (Version 0.1.1) [Computer software]. Zenodo.
 
 **Concept DOI (all versions):**
+
 https://doi.org/10.5281/zenodo.24381138
 
-**Version DOI (v0.1.1):** 
+**Version DOI (v0.1.1):**
+
 https://doi.org/10.5281/zenodo.24381139
 
-**GitHub repository:** 
+**GitHub repository:**
+
 https://github.com/BoukarAbdelghafour/GeoInvLab3D
 
-**Manuscript title:** *GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion.*
+**Manuscript title:**
+
+*GeoInvLab3D: An Open-Source Python Framework for Three-Dimensional Geophysical Modeling and Inversion.*
 
 ## Acknowledgements
 
 GeoInvLab3D is developed as an open-source framework to support reproducible 3-D geophysical modelling, forward simulation, and inversion research.
+
+## Author and contact
+
+**Abdelghafour Boukar**
+
+Researcher in Geophysics 
+University of Science and Technology Houari Boumediene (USTHB) 
+Algiers, Algeria
+
+### Contact information
+
+- **Institutional email:** [aboukar@usthb.dz](mailto:aboukar@usthb.dz)
+- **Personal email:** [abdelghafourboukar@gmail.com](mailto:abdelghafourboukar@gmail.com)
+
+### Scientific profiles
+
+- **ORCID:** [0000-0002-6660-155X](https://orcid.org/0000-0002-6660-155X)
+- **ResearchGate:** [Abdelghafour Boukar](https://www.researchgate.net/profile/Abdelghafour-Boukar)
+- **Google Scholar:** [Abdelghafour Boukar](https://scholar.google.com/citations?user=MTrngBoAAAAJ&hl=en)
+- **GitHub:** [BoukarAbdelghafour](https://github.com/BoukarAbdelghafour)
+
+For scientific questions, technical support, collaboration proposals, bug reports, or contributions to GeoInvLab3D, please feel free to contact the author.
